@@ -35,7 +35,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
     let evenNumbers = arrayOfNumbers.filter(
-        (even) => even %2 == 0
+        even => even %2 == 0
     )
     console.log(`The array of even numbers is: [${evenNumbers}] and the length of the array is: ${evenNumbers.length}.`)
     return evenNumbers.length
